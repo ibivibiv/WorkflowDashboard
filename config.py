@@ -22,7 +22,7 @@ class Production(object):
     DEBUG = False
     TESTING = False
     SQLALCHEMY_TRACK_MODIFICATIONS=False
-    SQLALCHEMY_DATABASE_URI = 'postgres://postgres:postgres@10.42.78.154:5432/workflow_archive'#os.getenv('DATABASE_URL')
+    SQLALCHEMY_DATABASE_URI = 'postgres://postgres:postgres@10.42.55.201:5432/workflow_archive'#os.getenv('DATABASE_URL')
     JWT_SECRET_KEY = os.getenv('JWT_SECRET_KEY')
 
 class Testing(object):
